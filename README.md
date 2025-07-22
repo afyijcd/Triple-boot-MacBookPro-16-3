@@ -14,17 +14,16 @@ Now that all is installed, let's get it cleanup and booted with refind
 Disable Secure Boot in Mac Recovery¶
 Apple's Secure Boot implementation does not allow booting anything other than macOS or Windows when it is enabled (not even shim signed GRUB). We need to disable it:
 
-    Turn off your Mac
-    Turn it on and press and hold Command-R until the black screen flashes
-    Your Mac will boot in the macOS Recovery
-    Select your user and enter your password
-    Now, from the menu bar choose Utilities > Startup Security Utility
-    Enter again the password
+  Turn off your Mac
+  Turn it on and press and hold Command-R until the black screen flashes 
+  Your Mac will boot in the macOS Recovery
+  Select your user and enter your password
+  Now, from the menu bar choose Utilities > Startup Security Utility
+  Enter again the password
+  Once in Startup Security Utility:
 
-    Once in Startup Security Utility:
-
-    set Secure Boot to No Security
-    set Allow Boot Media to Allow booting from external or removable media
+   set Secure Boot to No Security
+set Allow Boot Media to Allow booting from external or removable media
 
 Install refind in ubuntu
     sudo add-apt-repository ppa:rodsmith/refind
