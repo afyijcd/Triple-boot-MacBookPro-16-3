@@ -26,7 +26,7 @@ Apple's Secure Boot implementation does not allow booting anything other than ma
 set Allow Boot Media to Allow booting from external or removable media
 
 Install refind in ubuntu
-    sudo add-apt-repository ppa:rodsmith/refind
+    sudo add-apt-repository ppa:rodsmith/refind  
     sudo apt update
     sudo apt install refind
 
